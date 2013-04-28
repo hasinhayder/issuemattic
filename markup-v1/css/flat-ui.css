@@ -188,7 +188,7 @@ a {
   transition: 0.25s;
   -webkit-backface-visibility: hidden; }
   a:hover {
-    color: #2ecc71;
+    color: #1ABC9C;
     text-decoration: none; }
 
 h1 {
@@ -511,7 +511,7 @@ h6 {
   .demo-browser {
     background-image: url("../images/demo/browser-2x.png"); } }
 .navbar {
-  font-size: 18px; }
+  font-size: 15px; }
   .navbar .brand {
     color: #1abc9c;
     font-size: inherit;
@@ -528,7 +528,7 @@ h6 {
       content: "";
       border-style: solid;
       border-width: 0 9px 9px 9px;
-      border-color: transparent transparent #34495e transparent;
+      /*border-color: transparent transparent #34495e transparent;*/
       height: 0px;
       position: absolute;
       left: 15px;
@@ -545,7 +545,7 @@ h6 {
   .navbar .nav > li > a {
     padding: 14px 15px 17px; }
     .navbar .nav > li > a:hover {
-      color: #1abc9c; }
+      color: #f1c40f; }
   .navbar .nav li {
     position: relative; }
     .navbar .nav li:hover > ul {
@@ -585,7 +585,7 @@ h6 {
       .navbar .nav ul li:last-child {
         border-radius: 0 0 4px 4px; }
       .navbar .nav ul li.active > a, .navbar .nav ul li.active > a:hover {
-        background-color: #1abc9c;
+        /*background-color: #1abc9c;*/
         color: white; }
     .navbar .nav ul a {
       border-radius: 2px;
@@ -595,28 +595,29 @@ h6 {
       padding: 6px 9px;
       text-decoration: none; }
       .navbar .nav ul a:hover {
-        background-color: #1abc9c; }
+        /*background-color: #1abc9c;*/
+         }
 
 .navbar-inner {
   border: none;
   padding-left: 4px;
   padding-right: 4px;
-  -webkit-border-radius: 6px;
+  /*-webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  border-radius: 6px;
+  border-radius: 6px;*/
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
 .navbar-inverse .navbar-inner {
-  background: #34495e;
+  background: #2C3E50;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 .navbar-inverse .nav > li > a {
   color: white; }
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
   background-color: transparent;
-  color: #1abc9c;
-  -webkit-box-shadow: none;
+  color: #3498db;
+  /*-webkit-box-shadow: none;
   -moz-box-shadow: none;
-  box-shadow: none; }
+  box-shadow: none;*/ }
 
 .navbar-unread {
   background-color: #e74c3c;
